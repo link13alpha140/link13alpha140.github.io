@@ -1,0 +1,193 @@
+h1 {
+	margin-left: auto;
+	margin-right: auto;
+	color: #ffec01;
+	font-style: bold;
+	font: 25px;
+
+}
+
+textarea {
+	color:#ffffff;
+	border: 1px solid #ffffff;
+	font-style: bold;
+	background-color: #00F; 
+	background: rgba(0, 0, 0, 0.4);
+	font-size: 17px;
+	margin-right: 10px;
+	margin-left: 100px;
+	margin-top: 7px;
+}
+
+h2 {
+	margin-left: auto;
+	margin-right: auto;
+	color: #ffffff;
+	font-style: italic;
+	font: 50px;
+}
+
+a {
+	color: #ffffff;
+	text-decoration: none;
+}
+
+h3 {
+	color: #ffd700;
+	margin-left: auto;
+	margin-right: auto;
+	font-style: bold;
+	font-size: 50px;
+}
+
+body {
+	margin: 0px;
+	padding: 0px;
+	font: 12pt Verdana, Arial, Helvetica, sans-serif;
+	height: 100%
+	width: 100%;
+}
+
+h4 {
+	color: #ffec01;
+	font-style: bold;
+	font-size:15px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+bouton {
+	background-color: #07075B;
+	border: #000000;
+	color: #ffec01;
+}
+
+.bouton {
+  background-color:  #07075B;
+  border: #000000;
+  color: #ffec01;
+  padding: 10px;
+  margin-bottom: 50px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 15px;
+  cursor: pointer;
+  font: bold;
+}
+
+.logo {
+	margin-top: 10px;
+}
+
+.menu {
+	max-width: 100%;
+	height: auto;
+}
+
+.bouton1 {
+  background-color:  #07075B;
+  border: #000000;
+  color: #ffec01;
+  padding: 10px;
+  margin-right: 1px;
+  margin-bottom: 1px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  cursor: pointer;
+  font: bold;
+}
+
+.photo {
+	margin-right: 50px;
+
+}
+
+h8 {
+	color: #ffffff;
+	font-style: bold;
+	font-size: 25px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.image {
+	margin-right: 35px;
+	margin-left: 50px;
+}
+
+h9 {
+	color: #ffffff;
+	font-style: bold;
+	font-size: 40px;
+	margin-left: 1px;
+	margin-right: 1px;
+	
+}
+
+.ggmarmedi {
+	margin-bottom: 40px;
+}
+
+h10 {
+	color: #ffffff;
+	font-style: bold;
+	font-size: 20px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+h11 {
+	color: #ffffff;
+	font-style: bold;
+	font-size: 15px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.textetest {
+	vertical-align: middle;
+	line-height: 20px;
+}
+
+#text {
+	font: Verdana, Geneva, sans-serif;
+	font-size: 17px;
+	text-align: left;
+	vertical-align: center;
+	line-height: 20px;
+}
+
+.imgleft {
+	margin-left: 425px;
+}
+
+.imgright {
+	margin-right: 425px;
+}
+
+.pam1 {
+	margin-right: 370px;
+}
+
+.pam2 {
+	margin-left: 250px;
+	margin-right: 50px;
+}
+
+.bordure {
+	border: 0;
+	padding: 1;
+	max-width: 100%;
+	height: auto;
+}
+
+.bordure:hover {
+	border: 1px solid blue;
+	padding: 0;
+	max-width: 100%;
+	height: auto;
+}
+
