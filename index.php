@@ -111,7 +111,7 @@
 
 <?php
 
-require PATH_VIEWS . 'v_entete.html';
+require PATH_VIEWS . 'v_entete.php';
 
 $uc = filter_input(INPUT_GET, 'uc', FILTER_SANITIZE_FULL_SPECIAL_CHARS);
 
