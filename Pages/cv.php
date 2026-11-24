@@ -24,12 +24,12 @@
                 <div id="navbar" class="navbar-collapse collapse">
                     <ul class="nav navbar-nav">
                         <li class="active nav-item">
-                            <a href="../index.html" class="nav-link">
+                            <a href="../index.php" class="nav-link <?php if (!$uc || $uc == 'accueil') { ?>active<?php } else { ?>link-body-emphasis<?php } ?>" aria-current="page">
                                 <span class="fa fa-home"></span> Accueil
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a href="cv.html" class="nav-link">
+                            <a href="cv.php" class="nav-link">
                                 <span class="fa fa-id-badge"></span> CV
                             </a>
                         </li>
