@@ -111,7 +111,7 @@
 
 <?php
 
-require PATH_VIEWS . 'v_entete.php';
+require PATH_VIEWS . './pages/v_entete.php';
 
 $uc = filter_input(INPUT_GET, 'uc', FILTER_SANITIZE_FULL_SPECIAL_CHARS);
 
@@ -120,7 +120,7 @@ switch ($uc) {
         include PATH_VIEWS . 'c_connexion.php';
         break;
     case 'accueil':
-        include PATH_VIEWS . 'v_accueil.php';
+        include PATH_VIEWS . './pages/v_accueil.php';
         break;
     case 'gererFrais':
         include PATH_VIEWS . 'c_gererFrais.php';
@@ -137,4 +137,4 @@ switch ($uc) {
         break;
 }
 
-require PATH_VIEWS . 'v_pied.php';
+require PATH_VIEWS . './pages/v_pied.php';
