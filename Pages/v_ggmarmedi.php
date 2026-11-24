@@ -14,6 +14,27 @@
         <title>Portfolio de Amadéo Vanmarcke</title>
     </head>
     <body>
+        <section class="jumbotron text-center">
+            <div class="container">
+                <h1 class="jumbotron-heading">Création d'un site de resencement des unitée de la Gendarmerie Maritime</h1>
+                <p class="lead text-muted">Lors de l'un de mes stage j’ai eu la chance de recevoir une initiation au Hyper Text Mark Language (HTML) et au Cascading Style Sheet (CSS), que j’ai pu mettre en pratique grâce aux différents exercices. Mon maître de stage m’a demandé de réaliser seul, un site internet décrivant les unités composant le GGMARMEDI.
+            </div>
+        </section>
+        <div class="album py-5 bg-light">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-md-4"> <a href="./Code/Projetamadeo/index.html">
+                        <div class="card mb-4 shadow-sm">
+                            <img class="card-img-top" src="../images/liensiteprojet.png" alt="Lien vers mon site">
+                            <div class="card-body">
+                                <p class="card-text">Voici le site produit en fin de stage</p>
+                                </a> </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
         <div class="content-section">
             <div class="container">
                 <div class="row">
@@ -43,16 +64,5 @@
                 </div>
             </div>
         </div>
-
-        <footer>
-            <div class="container">
-                <p class="text-center" id="copyright">© Amadéo Vanmarcke 2026</p>
-            </div>
-        </footer>
-
-        <!-- Optional JavaScript; choose one of the two! -->
-        <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
-        <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
     </body>
 </html>

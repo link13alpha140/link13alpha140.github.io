@@ -14,43 +14,6 @@
         <title>Portfolio de Amadéo Vanmarcke</title>
     </head>
     <body>
-        <nav class="navbar navbar-dark bg-dark fixed-top navbar-expand-md">
-            <div class="container">
-                <button type="button" class="navbar-toggler" data-toggle="collapse"
-                        data-target="#navbar" aria-controls="navbar">
-                    <span class="sr-only">Navigation raccourcie</span>☰
-                </button>
-                <a class="navbar-brand" href="#">Mon portfolio</a>
-                <div id="navbar" class="navbar-collapse collapse">
-                    <ul class="nav navbar-nav">
-                        <li class="active nav-item">
-                            <a href="index.html" class="nav-link">
-                                <span class="fa fa-home"></span> Accueil
-                            </a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="./Pages/cv.html" class="nav-link">
-                                <span class="fa fa-id-badge"></span> CV
-                            </a>
-                        </li>
-                        <li class="dropdown nav-item">
-                            <a href="#" class="dropdown-toggle nav-link"
-                               data-toggle="dropdown" role="button">
-                                <span class="fa fa-list-alt"></span> Réalisations <span class="caret"></span>
-                            </a>
-                            <ul class="dropdown-menu" role="menu">
-                                <li role="presentation" class="dropdown-header dropdown-item">
-                                    En entreprise</li>
-                                <li role="presentation" class="dropdown-item">
-                                    <a role="menuitem" href="./Pages/appliandroid.html">Site WEB GGMARMEDI</a>
-                                </li>
-                            </ul>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </nav>
-
         <div class="main-header">
             <div class="container">
                 <h1>Bonjour et bienvenu sur mon portfolio !</h1>
@@ -95,16 +58,6 @@
                 </div>
             </div>
         </div>
-
-        <footer>
-            <div class="container">
-                <p class="text-center" id="copyright">© Amadéo Vanmarcke 2026</p>
-            </div>
-        </footer>
-
-        <!-- Optional JavaScript; choose one of the two! -->
-        <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
-        <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
     </body>
 </html>

@@ -1,140 +1,29 @@
-<!doctype html>
-<html lang="fr">
-    <head>
-        <!-- Required meta tags -->
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-        <meta name="description" content="Portfolio de Amadéo Vanmarcke - BTS SIO SLAM">
-        <meta name="author" content="Amadéo Vanmarcke">
-        <!-- Bootstrap CSS -->
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
-        <link rel="icon" href="./images/favicon.ico">
-        <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
-        <link rel="stylesheet" href="./css/index.css">
-        <title>Portfolio de Amadéo Vanmarcke</title>
-    </head>
-    <body>
-        <nav class="navbar navbar-dark bg-dark fixed-top navbar-expand-md">
-            <div class="container">
-                <button type="button" class="navbar-toggler" data-toggle="collapse"
-                        data-target="#navbar" aria-controls="navbar">
-                    <span class="sr-only">Navigation raccourcie</span>☰
-                </button>
-                <a class="navbar-brand" href="#">Mon portfolio</a>
-                <div id="navbar" class="navbar-collapse collapse">
-                    <ul class="nav navbar-nav">
-                        <li class="active nav-item">
-                            <a href="index.html" class="nav-link">
-                                <span class="fa fa-home"></span> Accueil
-                            </a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="./Pages/cv.html" class="nav-link">
-                                <span class="fa fa-id-badge"></span> CV
-                            </a>
-                        </li>
-                        <li class="dropdown nav-item">
-                            <a href="#" class="dropdown-toggle nav-link"
-                               data-toggle="dropdown" role="button">
-                                <span class="fa fa-list-alt"></span> Réalisations <span class="caret"></span>
-                            </a>
-                            <ul class="dropdown-menu" role="menu">
-                                <li role="presentation" class="dropdown-header dropdown-item">
-                                    En entreprise</li>
-                                <li role="presentation" class="dropdown-item">
-                                    <a role="menuitem" href="./Pages/appliandroid.html">Site WEB GGMARMEDI</a>
-                                </li>
-                            </ul>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </nav>
-
-        <div class="main-header">
-            <div class="container">
-                <h1>Bonjour et bienvenu sur mon portfolio !</h1>
-                <div class="row">
-                    <div class="col-md-2">
-                        <img src="images/photoprofil.png" alt="Amélia Pilou" class="img-fluid">
-                    </div>
-                    <div class="col-md-10">
-                        <p>Je m'appelle Amadéo Vanmarcke, j'ai 20 ans et ce site a pour vocation de me présenter en tant que personne, en tant qu'étudiant et candidat à l'obtention du BTS SIO (Services Informatiques aux Organisations) et en tant que futur professionnel de l'informatique</p>
-                        <p><a class="btn btn-amadeo" href="https://github.com/link13alpha140/link13alpha140.github.io" target="_blank" role="button">En savoir plus »</a></p>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <div class="content-section">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-4">
-                        <h2>Le BAC Pro SN Option RISC</h2>
-                        <p>Avant de me spécialiser, j'ai voulu comprendre comment les machines communiquent entre elles. C'est pourquoi j'ai débuté par un Bac Pro SN option RISC (Réseaux Informatiques et Systèmes Communicants).
-
-                           Cette formation très concrète m'a permis d'acquérir des bases solides en infrastructure : installation d'équipements, câblage, configuration de routeurs et de switchs, et maintenance des systèmes. C'est cette première expérience du "terrain" et du matériel qui m'a donné le goût de la technique et l'envie d'aller plus loin dans l'informatique.</p>
-                        <p><a class="btn btn-secondary" href="https://sti.eduscol.education.fr/formations/bac-pro-systemes-numeriques-sn/bac-pro-sn-option-reseaux-informatiques-et-systemes" target="_blank" role="button">En savoir plus »</a></p>
-                    </div>
-                    <div class="col-lg-4">
-                        <h2>Le BTS SIO</h2>
-                        <p>Passionné par le numérique depuis l'enfance, je ne me contente plus d'être un simple utilisateur curieux. Mon ambition est de passer de l'autre côté de l'écran : comprendre, concevoir et développer.
-
-                           Le BTS SIO s'est donc imposé comme une évidence après mon bac. Ce cursus m'a séduit par son programme complet : une forte dominante technique (60 %) appuyée par des compétences indispensables en gestion, droit et culture générale. C'est pour moi le tremplin idéal pour transformer ma passion en expertise et devenir un informaticien accompli.</p>
-                        <p><a class="btn btn-secondary" href="https://fr.wikipedia.org/wiki/Brevet_de_technicien_supérieur_-_Services_informatiques_aux_organisations" target="_blank" role="button">En savoir plus »</a></p>
-                    </div>
-                    <div class="col-lg-4">
-                        <h2>Option B SLAM</h2>
-                        <p>À la fin du premier semestre, le choix de l'option s'est imposé naturellement : ce sera "Solutions Logicielles et Applications Métiers" (SLAM).
-
-                           Ce parcours m'a immédiatement séduit par sa dimension concrète : travailler en équipe pour répondre aux besoins d'un client, définir des spécifications techniques, tester, corriger et maintenir des applications, tout en veillant à la protection des données personnelles.
-
-                           C'est l'opportunité idéale pour acquérir les fondamentaux du métier de développeur : modélisation (Merise, UML), programmation orientée objet (Java, C#, PHP), gestion de bases de données (PostgreSQL, MySQL) ou encore développement avec Symfony et méthodes agiles. J'étais sûr que cette voie était faite pour moi !</p>
-                        <p><a class="btn btn-secondary" href="https://www.onisep.fr/Ressources/Univers-Formation/Formations/Post-bac/bts-services-informatiques-aux-organisations-option-b-solutions-logicielles-et-applications-metiers" target="_blank" role="button">En savoir plus »</a></p>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <footer>
-            <div class="container">
-                <p class="text-center" id="copyright">© Amadéo Vanmarcke 2026</p>
-            </div>
-        </footer>
-
-        <!-- Optional JavaScript; choose one of the two! -->
-        <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
-        <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
-    </body>
-</html>
-
 <?php
 
-require PATH_VIEWS . './pages/v_entete.php';
+require 'pages\v_entente.php';
 
 $uc = filter_input(INPUT_GET, 'uc', FILTER_SANITIZE_FULL_SPECIAL_CHARS);
 
+if(empty($uc)){
+    $uc = 'accueil';
+}
+
 switch ($uc) {
-    case 'connexion':
-        include PATH_VIEWS . 'c_connexion.php';
-        break;
     case 'accueil':
-        include PATH_VIEWS . './pages/v_accueil.php';
+        include 'pages\v_acccueil.php';
         break;
-    case 'gererFrais':
-        include PATH_VIEWS . 'c_gererFrais.php';
+    case 'cv':
+        include 'pages\v_cv.php';
         break;
-    case 'etatFrais':
-        include PATH_VIEWS . 'c_etatFrais.php';
+    case 'ggmarmedi':
+        include 'pages\v_ggmarmedi.php';
         break;
     case 'deconnexion':
-        include PATH_VIEWS . 'c_deconnexion.php';
+        include 'c_deconnexion.php';
         break;
     default:
-        Utilitaires::ajouterErreur('Page non trouvée, veuillez vérifier votre lien...');
-        include PATH_VIEWS . 'v_erreurs.php';
+        include 'v_erreurs.php';
         break;
 }
 
-require PATH_VIEWS . './pages/v_pied.php';
+require 'pages\v_pied.php';
